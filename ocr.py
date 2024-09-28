@@ -86,7 +86,7 @@ if 'extracted_text' not in st.session_state:
 if uploaded_file is not None:
     # Display the uploaded image
     image = Image.open(uploaded_file)
-    st.image(image, caption='Uploaded Image.', use_column_width=True)
+    st.image(image, caption='Image Uploaded by you.', use_column_width=True)
     st.write("")
     
     if st.button("Scan Image"):
