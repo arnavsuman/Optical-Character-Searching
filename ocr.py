@@ -74,7 +74,7 @@ def KMP_search_and_highlight(extracted_text, search_string):
 # Streamlit UI
 st.title("OCR Image Upload and Document Search App")
 st.write("Upload an image to extract text using OCR, then search for any string in the extracted text.")
-st.write("Made by Arnav Suman")
+st.write("Made by Arnav Suman for IIT-Roorkee")
 
 # Upload image
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
